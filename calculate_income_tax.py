@@ -12,16 +12,10 @@
 # Pseudocode 
 
 # Create a variable that will let the user input their income 
+income = int(input("Enter your income here: "))
+
 # Create a variable for income tax payable and set it to 0 
 # Create an if statement for first 10000 taxable income 
 # Create an elif for second 10000 taxable income 
 # Create an else for remaining taxable income 
 # Print the results
-
-
-
-
-
-
-
-
