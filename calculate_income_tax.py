@@ -27,4 +27,9 @@ elif income <= 20000:
     income_tax_payable = second_portion*0.10
 
 # Create an else for remaining taxable income 
+else: 
+    income_tax_payable = 0
+    income_tax_payable = 10000*0.10
+    income_tax_payable = income_tax_payable + (income - 20000)*0.20
+    
 # Print the results
