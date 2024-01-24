@@ -15,6 +15,8 @@
 income = int(input("Enter your income here: "))
 
 # Create a variable for income tax payable and set it to 0 
+income_tax_payable = 0 
+
 # Create an if statement for first 10000 taxable income 
 # Create an elif for second 10000 taxable income 
 # Create an else for remaining taxable income 
