@@ -18,6 +18,9 @@ income = int(input("Enter your income here: "))
 income_tax_payable = 0 
 
 # Create an if statement for first 10000 taxable income 
+if income <= 10000:
+    income_tax_payable = 0 
+
 # Create an elif for second 10000 taxable income 
 # Create an else for remaining taxable income 
 # Print the results
