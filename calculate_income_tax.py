@@ -22,5 +22,9 @@ if income <= 10000:
     income_tax_payable = 0 
 
 # Create an elif for second 10000 taxable income 
+elif income <= 20000: 
+    second_portion = income - 10000
+    income_tax_payable = second_portion*0.10
+
 # Create an else for remaining taxable income 
 # Print the results
