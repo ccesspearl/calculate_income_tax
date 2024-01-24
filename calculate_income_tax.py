@@ -31,5 +31,7 @@ else:
     income_tax_payable = 0
     income_tax_payable = 10000*0.10
     income_tax_payable = income_tax_payable + (income - 20000)*0.20
-    
+
 # Print the results
+print("Given income:", income)
+print("The income tax payable is", income_tax_payable)
